@@ -46,7 +46,7 @@ public class SinglePassSnippetSearchServiceImpl implements SnippetSearchService 
                 // for purposes of this loop we only care about document tokens that are search terms
                 continue;
             }
-        };
+        }
 
         // get the shortest snippet candidate that contains all search terms
         Optional<SnippetCandidate> shortestSnippetCandidate = snippetCandidates
